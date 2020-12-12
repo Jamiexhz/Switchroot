@@ -1,7 +1,7 @@
 #!/bin/sh
 sudo apt-get update
-sudo apt-get install bc-y
-sudo apt-get install bison-y
+sudo apt-get install bc -y
+sudo apt-get install bison -y
 sudo apt-get install build-essential -y
 sudo apt-get install ccache -y
 sudo apt-get install curl -y
