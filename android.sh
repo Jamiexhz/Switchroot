@@ -30,9 +30,7 @@ sudo apt-get install squashfs-tools -y
 sudo apt-get install xsltproc -y
 sudo apt-get install zip -y
 sudo apt-get install zlib1g-dev -y
-sudo apt-get install repo -y
+sudo apt-get install git-repo -y
 sudo apt-get install python -y
 sudo apt-get install make -y
 sudo apt-get install ccache -y
-mkdir -p ~/bin
-mkdir -p ~/android/lineage
