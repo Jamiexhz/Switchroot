@@ -1,4 +1,3 @@
-#!/bin/sh
 #!/bin/bash
 echo "" | sudo add-apt-repository ppa:nilarimogard/webupd8
 sudo apt-get update
