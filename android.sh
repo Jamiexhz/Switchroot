@@ -35,6 +35,7 @@ sudo apt-get install lzop -y
 sudo apt-get install pngcrush -y
 sudo apt-get install rsync -y
 sudo apt-get install schedtool -y
+sleep 30
 sudo apt-get install squashfs-tools -y
 sudo apt-get install xsltproc -y
 sudo apt-get install zip -y
@@ -55,7 +56,7 @@ source ~/.profile
 git config --global user.email "jamie_xhz@163.com"
 git config --global user.name "Jamiexhz"
 cd ~/android/lineage
-repo init -u https://github.com/LineageOS/android.git -b lineage-17.1
+repo init -u https://github.com/LineageOS/android.git -b lineage-17.1 -y
 repo sync
 git clone https://gitlab.com/switchroot/android/manifest.git -b lineage-17.1 .repo/local_manifests
 repo sync
