@@ -57,8 +57,10 @@ git config --global user.email "jamie_xhz@163.com"
 git config --global user.name "Jamiexhz"
 cd ~/android/lineage
 echo "y" | repo init -u https://github.com/LineageOS/android.git -b lineage-17.1
+sleep 30
 repo sync
 git clone https://gitlab.com/switchroot/android/manifest.git -b lineage-17.1 .repo/local_manifests
+sleep 30
 repo sync
 source build/envsetup.sh
 repopick -t nvidia-enhancements-q
