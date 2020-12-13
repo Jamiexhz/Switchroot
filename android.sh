@@ -1,5 +1,6 @@
 #!/bin/sh
-sudo add-apt-repository ppa:nilarimogard/webupd8
+#!/bin/bash
+echo "" | sudo add-apt-repository ppa:nilarimogard/webupd8
 sudo apt-get update
 sudo apt-get install android-tools-adb -y
 sudo apt-get install android-tools-fastboot -y
@@ -56,7 +57,7 @@ source ~/.profile
 git config --global user.email "jamie_xhz@163.com"
 git config --global user.name "Jamiexhz"
 cd ~/android/lineage
-repo init -u https://github.com/LineageOS/android.git -b lineage-17.1 -y
+echo "y" | repo init -u https://github.com/LineageOS/android.git -b lineage-17.1
 repo sync
 git clone https://gitlab.com/switchroot/android/manifest.git -b lineage-17.1 .repo/local_manifests
 repo sync
