@@ -14,7 +14,9 @@ wget https://raw.githubusercontent.com/Jamiexhz/Switchroot/main/android.sh
 sudo chmod a+x android.sh
 sudo ./android.sh
 ```
-
+  
+#**以下为安装教程**
+  
 ## 简介  
 Switchroot小组已于此前正式发布了安卓8.1（O）系统，您可以从[此处](https://forum.xda-developers.com/nintendo-switch/nintendo-switch-news-guides-discussion--development/rom-switchroot-lineageos-15-1-t3951389)下载安装  
 目前，Switchroot正在着手进行安卓10（Q）系统的适配工作。当前系统已处于基本可用状态。  
