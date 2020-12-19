@@ -9,7 +9,7 @@ This script won't be possible without the guide from [Gitlab - ZachyCatGames]htt
 
 ## 已知问题 Known Issue
   
- + **error: vendor/lineage/build/soong/Android.bp:30:8: module "generated_kernel_includes": cmd: unknown variable '$(PATH_OVERRIDE_SOONG)' **
+ + **error: vendor/lineage/build/soong/Android.bp:30:8: module "generated_kernel_includes": cmd: unknown variable '$(PATH_OVERRIDE_SOONG)'**  
    
      + 请尝试执行 Try these commands:  
      ```
