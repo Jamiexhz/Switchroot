@@ -2,12 +2,12 @@
 **使用本脚本及附属教程，可为Nintendo Switch安装最新版本的安卓系统（Android 10，或Android Q）**  
 
 ## 简介  
-Switchroot小组已于此前正式发布了**安卓8.1（O）**系统，您可以从[此处](https://forum.xda-developers.com/nintendo-switch/nintendo-switch-news-guides-discussion--development/rom-switchroot-lineageos-15-1-t3951389)下载安装  
-目前，Switchroot正在着手进行**安卓10（Q）系统**的适配工作。**当前系统已处于基本可用状态。**  
-由于系统bug仍然较多、功能尚不完全、更新频率较高，现**需自行编译安装。**  
+Switchroot小组已于此前正式发布了安卓8.1（O）系统，您可以从[此处](https://forum.xda-developers.com/nintendo-switch/nintendo-switch-news-guides-discussion--development/rom-switchroot-lineageos-15-1-t3951389)下载安装  
+目前，Switchroot正在着手进行安卓10（Q）系统的适配工作。当前系统已处于基本可用状态。  
+由于系统bug仍然较多、功能尚不完全、更新频率较高，现需自行编译安装。
 在完成前置操作后，执行此脚本，即可便捷编译由Switchroot小组开发的安卓10（Q）系统安装文件。  
 
-## 操作前须知：  
+## 操作前须知
   
 **安卓10（Q）系统添加了以下新特性，如：**  
 * 手柄有线连接  
