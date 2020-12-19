@@ -4,7 +4,8 @@
 教程附录在页面下方。  
   
 This is an automatic compile script for Android System on Nintendo Switch.  
-**By using this script and tutorials attached below (Chinese Only so far), you are able to compile and install Android 10 (or Android Q) on Nintendo Switch.**  
+**By using this script and tutorials attached below, you are able to compile and install Android 10 (or Android Q) on Nintendo Switch.**  
+Tutorial is in Chinese Only so far, you may follow [This Guide]https://gitlab.com/ZachyCatGames/q-tips-guide instead, but replace anything related to commands with this simple one-click script.  
 This script won't be possible without the guide from [Gitlab - ZachyCatGames]https://gitlab.com/ZachyCatGames/q-tips-guide and [Lineage OS Official]https://wiki.lineageos.org/devices/foster/build .  
 
 ## 已知问题 Known Issue
@@ -78,17 +79,20 @@ Switchroot小组已于此前正式发布了安卓8.1（O）系统，您可以从
 
 **1. 软件准备**  
   
-    >基本的Linux操作常识  
-    >对Switch Homebrew（自制固件）有一定了解及操作经验
-    >常人的文字理解能力  
+ + 基本的Linux操作常识  
+ + 对Switch Homebrew（自制固件）有一定了解及操作经验
+ + 正常的文字理解能力  
   
 **2. 硬件准备**  
   
  + Switch端  
+   
     >一台可以软破、功能正常的Switch主机  
     >注入器或PC、手机端注入软件  
     >一张32GB以上的空闲内存卡  
+    
  + 电脑端  
+   
     >16GB以上可用内存；  
     >250GB以上可用硬盘空间；  
     >（SSD硬盘可以有效提高编译速度）  
@@ -104,3 +108,20 @@ wget https://raw.githubusercontent.com/Jamiexhz/Switchroot/main/android.sh
 sudo chmod a+x android.sh
 sudo ./android.sh
 ```
+
+**4. 下载安装文件**
+
+所需文件已经打包完毕，待上传
+  
+**5. 在Switch上完成安装**  
+  
+待补充
+  
+    + **Step.1 使用Hetake分区与初始化配置**
+       
+    + **Step.2 在TWRP内输入镜像**
+      
+    + **Step.3 刷入GApps（谷歌服务框架）**
+      
+    + **Step.4 刷入Magisk**
+      
