@@ -8,8 +8,8 @@ This is an automatic compile script for Android System on Nintendo Switch.
 Tutorial is in Chinese Only so far, you may follow [This Guide](https://gitlab.com/ZachyCatGames/q-tips-guide) instead, but replace anything related to commands with this simple one-click script.  
 This script won't be possible without the guidance from [Gitlab - ZachyCatGames](https://gitlab.com/ZachyCatGames/q-tips-guide) and [Lineage OS Official](https://wiki.lineageos.org/devices/foster/build).  
   
-使用脚本需自行承担风险，作者不对任何可能造成的问题负责
-Use this script at your own risk. The author won't be responsible to any problem occurred.
+**使用脚本需自行承担风险，作者不对任何可能造成的问题负责。  
+Use this script at your own risk. The author won't be responsible to any problem occurred.**
 
 ## 已知问题 Known Issue
   
