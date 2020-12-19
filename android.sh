@@ -81,4 +81,4 @@ export WITHOUT_CHECK_API=true
 ccache -M 50G
 cd ~/android/lineage
 lunch lineage_icosa-userdebug
-sudo make bacon
+make bacon
