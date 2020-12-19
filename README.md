@@ -1,15 +1,16 @@
 这是一个Nintendo Switch 安卓系统自动编译脚本。  
 **使用本脚本及附属教程，可为Nintendo Switch安装最新版本的安卓系统（Android 10，或Android Q）**  
+脚本的制作受到了[Gitlab - ZachyCatGames的教程]https://gitlab.com/ZachyCatGames/q-tips-guide 与 [Lineage OS官方教程]https://wiki.lineageos.org/devices/foster/build 的指导，感谢原作者。  
+教程附录在页面下方。  
   
 This is an automatic compile script for Android System on Nintendo Switch.  
 **By using this script and tutorials attached below (Chinese Only so far), you are able to compile and install Android 10 (or Android Q) on Nintendo Switch.**  
-  
-脚本的制作受到了[Gitlab - ZachyCatGames的教程]https://gitlab.com/ZachyCatGames/q-tips-guide 与 [Lineage OS官方教程]https://wiki.lineageos.org/devices/foster/build 的指导，感谢原作者。  
-This script won't be possible without the guide from [Gitlab - ZachyCatGames]https://gitlab.com/ZachyCatGames/q-tips-guide 与 [Lineage OS Official]https://wiki.lineageos.org/devices/foster/build .  
+This script won't be possible without the guide from [Gitlab - ZachyCatGames]https://gitlab.com/ZachyCatGames/q-tips-guide and [Lineage OS Official]https://wiki.lineageos.org/devices/foster/build .  
 
 ## 已知问题 Known Issue
   
- + error: vendor/lineage/build/soong/Android.bp:30:8: module "generated_kernel_includes": cmd: unknown variable '$(PATH_OVERRIDE_SOONG)'  
+ + **error: vendor/lineage/build/soong/Android.bp:30:8: module "generated_kernel_includes": cmd: unknown variable '$(PATH_OVERRIDE_SOONG)' **
+   
      + 请尝试执行 Try these commands:  
      ```
      cd ~/android/lineage  
@@ -17,13 +18,15 @@ This script won't be possible without the guide from [Gitlab - ZachyCatGames]htt
      make bacon
      ```
      + 如若未能解决问题，请打开脚本文件，自 `curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo`开始，手动执行后续命令  
+     + 如问题依然存在，请多次尝试，直至正常编译为止   
+  
      + If the problem remains, please open the script and do the commands manually from `curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo`.  
-     + 如问题依然存在，请多次尝试，直至正常编译为止  
      + Try more times until the problem was solved.  
   
- + warning: unused parameter...; warning: missing...  
-     + 正常现象。请继续等待编译完成，不要终止进程
-     + It's normal. Please wait until the compliation progress finishes.  
+ + **warning: unused parameter...; warning: missing...**  
+   
+     + 正常现象。请继续等待编译完成。编译进程可能会长达数个小时。
+     + It's normal. Please wait until the compliation progress finishes, which may take several hours.
   
 ## 使用本脚本 Use this script 
   
@@ -34,7 +37,7 @@ wget https://raw.githubusercontent.com/Jamiexhz/Switchroot/main/android.sh
 sudo chmod a+x android.sh
 sudo ./android.sh
 ```
-建议自行Fork一份到Github仓库，并据实修改git config中的用户名和邮箱。 
+建议自行Fork一份到Github仓库，并据实修改git config中的用户名和邮箱。  
 You may fork the script to your own repo and modify the default username & e-mail address in "git config" to yours.  
   
 ## 安装教程 Installation Tutorials (Chinese) #
@@ -96,6 +99,8 @@ Switchroot小组已于此前正式发布了安卓8.1（O）系统，您可以从
   
 **3. 执行安装指令**  
   
-由于  
-
+```
+wget https://raw.githubusercontent.com/Jamiexhz/Switchroot/main/android.sh
+sudo chmod a+x android.sh
+sudo ./android.sh
 ```
