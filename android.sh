@@ -46,7 +46,7 @@ sudo apt-get install make -y
 sudo apt-get install ccache -y
 mkdir -p ~/bin
 mkdir -p ~/android/lineage
-curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+curl https://mirrors.tuna.tsinghua.edu.cn/git/git-repo > ~/bin/repo
 chmod a+x ~/bin/repo
 sudo echo "if [ -d "$HOME/bin" ] ; then" >> ~/.profile
 sudo echo "    PATH="$HOME/bin:$PATH"" >> ~/.profile
