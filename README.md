@@ -2,10 +2,10 @@
 **使用本脚本及附属教程，可为Nintendo Switch安装最新版本的安卓系统（Android 10，或Android Q）**  
   
 This is an automatic compile script for Android System on Nintendo Switch.  
-**By using this script and tutorials attached below (currently Chinese only), you are able to compile and install Android 10 (or Android Q) on Nintendo Switch.**  
+**By using this script and tutorials attached below (Chinese Only so far), you are able to compile and install Android 10 (or Android Q) on Nintendo Switch.**  
 
 
-## 使用本脚本 Use the script：  
+# 使用本脚本 Use the script：  
   
 建议自行Fork一份到Github仓库，并据实修改git config中的用户名和邮箱。  
 You may fork the script to your own repo and modify the default username & e-mail address in "git config" to yours.
@@ -15,7 +15,7 @@ sudo chmod a+x android.sh
 sudo ./android.sh
 ```
   
-#**以下为安装教程**
+# 安装教程 Tutorials (Chinese)
   
 ## 简介  
 Switchroot小组已于此前正式发布了安卓8.1（O）系统，您可以从[此处](https://forum.xda-developers.com/nintendo-switch/nintendo-switch-news-guides-discussion--development/rom-switchroot-lineageos-15-1-t3951389)下载安装  
