@@ -3,11 +3,6 @@ echo "" | sudo add-apt-repository ppa:nilarimogard/webupd8
 sudo apt-get update
 sudo apt-get install android-tools-adb -y
 sudo apt-get install android-tools-fastboot -y
-sudo echo "" >> ~/.profile
-sudo echo "if [ -d "$HOME/platform-tools" ] ; then" >> ~/.profile
-sudo echo "    PATH="$HOME/platform-tools:$PATH"" >> ~/.profile
-sudo echo "fi" >> ~/.profile
-sudo echo "" >> ~/.profile
 source ~/.profile
 sudo apt-get install bc -y
 sudo apt-get install bison -y
@@ -48,10 +43,6 @@ mkdir -p ~/bin
 mkdir -p ~/android/lineage
 curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
-sudo echo "if [ -d "$HOME/bin" ] ; then" >> ~/.profile
-sudo echo "    PATH="$HOME/bin:$PATH"" >> ~/.profile
-sudo echo "fi" >> ~/.profile
-sudo echo "" >> ~/.profile
 source ~/.profile
 git config --global user.email "jamie_xhz@163.com"
 git config --global user.name "Jamiexhz"
