@@ -1,9 +1,9 @@
-这是一个Nintendo Switch 安卓系统自动编译脚本。  
-**使用本脚本及附属教程，可为Nintendo Switch安装最新版本的安卓系统（Android 10，或Android Q）**  
+这是一个Nintendo Switch安卓系统自动编译脚本。  
+**使用本脚本及附属教程，可为Nintendo Switch编译并安装最新版本的安卓系统（Android 10，或Android Q）**  
 脚本的制作受到了[Gitlab - ZachyCatGames的教程](https://gitlab.com/ZachyCatGames/q-tips-guide) 与 [Lineage OS官方教程](https://wiki.lineageos.org/devices/foster/build) 的指导，感谢原作者。  
 教程附录在页面下方。  
   
-This is an automatic compile script for Android System on Nintendo Switch.  
+This is an automatic compile script for Nintendo Switch Android System.  
 **By using this script and tutorials attached below, you are able to compile and install Android 10 (or Android Q) on Nintendo Switch.**  
 Tutorial is in Chinese Only so far. You may follow [This Guide](https://gitlab.com/ZachyCatGames/q-tips-guide) instead, but replace anything related to commands with this simple one-click script.  
 This script won't be possible without the guidance from [Gitlab - ZachyCatGames](https://gitlab.com/ZachyCatGames/q-tips-guide) and [Lineage OS Official](https://wiki.lineageos.org/devices/foster/build).  
