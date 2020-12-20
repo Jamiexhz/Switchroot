@@ -40,13 +40,12 @@ sudo apt-get install squashfs-tools -y
 sudo apt-get install xsltproc -y
 sudo apt-get install zip -y
 sudo apt-get install zlib1g-dev -y
-sudo apt-get install git-repo -y
 sudo apt-get install python -y
 sudo apt-get install make -y
 sudo apt-get install ccache -y
 mkdir -p ~/bin
 mkdir -p ~/android/lineage
-curl https://mirrors.tuna.tsinghua.edu.cn/git/git-repo > ~/bin/repo
+curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
 sudo echo "if [ -d "$HOME/bin" ] ; then" >> ~/.profile
 sudo echo "    PATH="$HOME/bin:$PATH"" >> ~/.profile
@@ -74,7 +73,9 @@ patch -p1 < ../../../.repo/android_device_nvidia_foster.patch
 rm ../../../.repo/android_device_nvidia_foster.patch
 cd ../../../bionic
 patch -p1 < ../.repo/local_manifests/patches/bionic_intrinsics.patch
-cd ../
+cd ../frameworks/base
+patch -p1 < ../../.repo/local_manifests/patches/frameworks_base_nvcpl.patch
+cd ../../
 export USE_CCACHE=1
 export CCACHE_EXEC=$(which ccache)
 export WITHOUT_CHECK_API=true
