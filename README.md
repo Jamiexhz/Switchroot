@@ -15,7 +15,7 @@ Use this script at your own risk. The author won't be responsible to any problem
   
  + **error: vendor/lineage/build/soong/Android.bp:30:8: module "generated_kernel_includes": cmd: unknown variable '$(PATH_OVERRIDE_SOONG)'**  
    
-     + 请在重启系统后尝试执行以下指令
+     + 请在重启系统后尝试执行以下指令  
      Reboot and then try these commands:  
      ```
      cd ~/android/lineage  
