@@ -18,31 +18,37 @@ Use this script at your own risk. The author won't be responsible to any problem
      + 请在重启系统后尝试执行以下指令  
      Reboot and then try these commands:  
   
-     ```
-     cd ~/android/lineage  
-     make clean  
-     make bacon
-     ```
+       ```
+       
+       cd ~/android/lineage  
+       make clean  
+       make bacon
+       
+       ```
      + 如若未能解决问题，请执行`sudo nano ~/.profile`，删除之前增加的环境变量，即  
      If problem remains, please do `sudo nano ~/.profile` to delete the PATH added previously, which is:  
-     ```
-     if [ -d "$HOME/platform-tools" ] ; then  
-        PATH=***  
-     fi  
-     if [ -d "$HOME/bin" ] ; then  
-        PATH=*** 
-     fi  
-     ```
+  
+       ```
+       
+        if [ -d "$HOME/platform-tools" ] ; then  
+           PATH=***  
+        fi  
+        if [ -d "$HOME/bin" ] ; then  
+           PATH=*** 
+        fi  
+        
+       ```
      + 手动执行adb环境变量添加命令，即  
      Do these commands manually to add PATHs.
-     ```
-  
-     sudo echo "" >> ~/.profile  
-     sudo echo "if [ -d "$HOME/platform-tools" ] ; then" >> ~/.profile  
-     sudo echo "    PATH="$HOME/platform-tools:$PATH"" >> ~/.profile  
-     sudo echo "fi" >> ~/.profile  
-     sudo echo "" >> ~/.profile  
-     ```  
+      
+      ```
+       sudo echo "" >> ~/.profile  
+       sudo echo "if [ -d "$HOME/platform-tools" ] ; then" >> ~/.profile  
+       sudo echo "    PATH="$HOME/platform-tools:$PATH"" >> ~/.profile  
+       sudo echo "fi" >> ~/.profile  
+       sudo echo "" >> ~/.profile  
+       
+      ```  
   
      + 之后，打开脚本文件，自`curl:/storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo`开始，手动执行后续命令  
      Now, open the script file and do the commands manually from `curl:/storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo`  
@@ -128,11 +134,13 @@ Switchroot小组已于此前正式发布了安卓8.1（O）系统，您可以从
   
 **3. 执行安装指令**  
   
-```
-wget https://raw.githubusercontent.com/Jamiexhz/Switchroot/main/android.sh
-sudo chmod a+x android.sh
-sudo ./android.sh
-```
+  ```
+  
+  wget https://raw.githubusercontent.com/Jamiexhz/Switchroot/main/android.sh
+  sudo chmod a+x android.sh
+  sudo ./android.sh
+  
+  ```
 
 **4. 下载安装文件**
 
