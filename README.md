@@ -10,7 +10,7 @@ This script won't be possible without the guidance from [Gitlab - ZachyCatGames]
   
 **使用脚本需自行承担风险，作者不对任何可能造成的问题负责。  
 Use this script at your own risk. The author won't be responsible to any problem occurred.**
-
+  
 ## 使用本脚本 Use this script 
   
  + 执行以下命令:  
@@ -25,7 +25,7 @@ Use this script at your own risk. The author won't be responsible to any problem
   ```
  + 建议自行Fork一份到Github仓库，并据实修改git config中的用户名和邮箱。  
    You may fork the script to your own repo and modify the default username & e-mail address in "git config" to yours.  
-
+  
 ## 已知问题 Known Issue
   
  + **error: vendor/lineage/build/soong/Android.bp:30:8: module "generated_kernel_includes": cmd: unknown variable '$(PATH_OVERRIDE_SOONG)'**  
