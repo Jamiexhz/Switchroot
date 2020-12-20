@@ -17,6 +17,7 @@ Use this script at your own risk. The author won't be responsible to any problem
    
      + 请在重启系统后尝试执行以下指令  
      Reboot and then try these commands:  
+  
      ```
      cd ~/android/lineage  
      make clean  
