@@ -46,12 +46,12 @@ Use this script at your own risk. The author won't be responsible to any problem
   
      + 之后，打开脚本文件，自`curl:/storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo`开始，手动执行后续命令  
      Now, open the script file and do the commands manually from `curl:/storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo`  
-     + 如问题依然存在，请多次尝试，直至正常编译为止   
+     + 如问题依然存在，请多次尝试，直至正常编译为止  
      Try more times until the problem was solved.  
   
  + **warning: unused parameter...; warning: missing...**  
    
-     + 正常现象。请继续等待编译完成。编译进程可能会长达数个小时。
+     + 正常现象。请继续等待编译完成。编译进程可能会长达数个小时。  
      It's normal. Please wait until the compliation progress finishes, which may take several hours.
   
 ## 使用本脚本 Use this script 
