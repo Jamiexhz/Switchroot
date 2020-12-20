@@ -11,6 +11,18 @@ This script won't be possible without the guidance from [Gitlab - ZachyCatGames]
 **使用脚本需自行承担风险，作者不对任何可能造成的问题负责。  
 Use this script at your own risk. The author won't be responsible to any problem occurred.**
 
+## 使用本脚本 Use this script 
+  
+ + 执行以下命令:  
+   Run commands as below:  
+```
+wget https://raw.githubusercontent.com/Jamiexhz/Switchroot/main/android.sh
+sudo chmod a+x android.sh
+sudo ./android.sh
+```
+ + 建议自行Fork一份到Github仓库，并据实修改git config中的用户名和邮箱。  
+   You may fork the script to your own repo and modify the default username & e-mail address in "git config" to yours.  
+
 ## 已知问题 Known Issue
   
  + **error: vendor/lineage/build/soong/Android.bp:30:8: module "generated_kernel_includes": cmd: unknown variable '$(PATH_OVERRIDE_SOONG)'**  
@@ -42,6 +54,7 @@ Use this script at your own risk. The author won't be responsible to any problem
      Do these commands manually to add PATHs.
       
       ```
+      
        sudo echo "" >> ~/.profile  
        sudo echo "if [ -d "$HOME/platform-tools" ] ; then" >> ~/.profile  
        sudo echo "    PATH="$HOME/platform-tools:$PATH"" >> ~/.profile  
@@ -60,17 +73,6 @@ Use this script at your own risk. The author won't be responsible to any problem
      + 正常现象。请继续等待编译完成。编译进程可能会长达数个小时。  
      It's normal. Please wait until the compliation progress finishes, which may take several hours.
   
-## 使用本脚本 Use this script 
-  
- + 执行以下命令:  
-   Run commands as below:  
-```
-wget https://raw.githubusercontent.com/Jamiexhz/Switchroot/main/android.sh
-sudo chmod a+x android.sh
-sudo ./android.sh
-```
- + 建议自行Fork一份到Github仓库，并据实修改git config中的用户名和邮箱。  
-   You may fork the script to your own repo and modify the default username & e-mail address in "git config" to yours.  
   
 ## 安装教程 Installation Tutorials (Chinese) #
   
