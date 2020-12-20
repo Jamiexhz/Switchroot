@@ -23,28 +23,48 @@ Use this script at your own risk. The author won't be responsible to any problem
      make clean  
      make bacon
      ```
-     + 如若未能解决问题，请打开脚本文件，自 `curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo`开始，手动执行后续命令  
-     + 如问题依然存在，请多次尝试，直至正常编译为止   
+     + 如若未能解决问题，请执行`sudo nano ~/.profile`，删除之前增加的环境变量，即  
+     If problem remains, please do `sudo nano ~/.profile` to delete the PATH added previously, which is:  
+     ```
+     if [ -d "$HOME/platform-tools" ] ; then  
+        PATH=***  
+     fi  
+     if [ -d "$HOME/bin" ] ; then  
+        PATH=*** 
+     fi  
+     ```
+     + 手动执行adb环境变量添加命令，即  
+     Do these commands manually to add PATHs.
+     ```
   
-     + If the problem remains, please open the script and do the commands manually from `curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo`.  
-     + Try more times until the problem was solved.  
+     sudo echo "" >> ~/.profile  
+     sudo echo "if [ -d "$HOME/platform-tools" ] ; then" >> ~/.profile  
+     sudo echo "    PATH="$HOME/platform-tools:$PATH"" >> ~/.profile  
+     sudo echo "fi" >> ~/.profile  
+     sudo echo "" >> ~/.profile  
+     ```  
+  
+     + 之后，打开脚本文件，自`curl:/storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo`开始，手动执行后续命令  
+     Now, open the script file and do the commands manually from `curl:/storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo`  
+     + 如问题依然存在，请多次尝试，直至正常编译为止   
+     Try more times until the problem was solved.  
   
  + **warning: unused parameter...; warning: missing...**  
    
      + 正常现象。请继续等待编译完成。编译进程可能会长达数个小时。
-     + It's normal. Please wait until the compliation progress finishes, which may take several hours.
+     It's normal. Please wait until the compliation progress finishes, which may take several hours.
   
 ## 使用本脚本 Use this script 
   
-执行以下命令:  
-Run commands as below:  
+ + 执行以下命令:  
+   Run commands as below:  
 ```
 wget https://raw.githubusercontent.com/Jamiexhz/Switchroot/main/android.sh
 sudo chmod a+x android.sh
 sudo ./android.sh
 ```
-建议自行Fork一份到Github仓库，并据实修改git config中的用户名和邮箱。  
-You may fork the script to your own repo and modify the default username & e-mail address in "git config" to yours.  
+ + 建议自行Fork一份到Github仓库，并据实修改git config中的用户名和邮箱。  
+   You may fork the script to your own repo and modify the default username & e-mail address in "git config" to yours.  
   
 ## 安装教程 Installation Tutorials (Chinese) #
   
