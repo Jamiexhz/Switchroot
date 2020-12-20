@@ -15,11 +15,14 @@ Use this script at your own risk. The author won't be responsible to any problem
   
  + 执行以下命令:  
    Run commands as below:  
-```
-wget https://raw.githubusercontent.com/Jamiexhz/Switchroot/main/android.sh
-sudo chmod a+x android.sh
-sudo ./android.sh
-```
+  
+  ```
+  
+  wget https://raw.githubusercontent.com/Jamiexhz/Switchroot/main/android.sh
+  sudo chmod a+x android.sh
+  sudo ./android.sh
+  
+  ```
  + 建议自行Fork一份到Github仓库，并据实修改git config中的用户名和邮箱。  
    You may fork the script to your own repo and modify the default username & e-mail address in "git config" to yours.  
 
@@ -53,15 +56,15 @@ sudo ./android.sh
      + 手动执行adb环境变量添加命令，即  
      Do these commands manually to add PATHs.
       
-      ```
+     ```
+     
+      sudo echo "" >> ~/.profile  
+      sudo echo "if [ -d "$HOME/platform-tools" ] ; then" >> ~/.profile  
+      sudo echo "    PATH="$HOME/platform-tools:$PATH"" >> ~/.profile  
+      sudo echo "fi" >> ~/.profile  
+      sudo echo "" >> ~/.profile  
       
-       sudo echo "" >> ~/.profile  
-       sudo echo "if [ -d "$HOME/platform-tools" ] ; then" >> ~/.profile  
-       sudo echo "    PATH="$HOME/platform-tools:$PATH"" >> ~/.profile  
-       sudo echo "fi" >> ~/.profile  
-       sudo echo "" >> ~/.profile  
-       
-      ```  
+     ```  
   
      + 之后，打开脚本文件，自`curl:/storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo`开始，手动执行后续命令  
      Now, open the script file and do the commands manually from `curl:/storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo`  
