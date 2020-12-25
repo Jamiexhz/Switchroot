@@ -1,3 +1,6 @@
+由于Github内已经出现[更为完善的脚本](https://github.com/makinbacon21/switchroot-script-builder) (该脚本尚存在兼容性问题)，不再建议使用本脚本。本项目之后会专注于教程的更新。  
+As someone has released [a better script with more functions](https://github.com/makinbacon21/switchroot-script-builder) （Some compatibility problems remain to be fixed）, this script is not recommended anymore. This project will work as a tutorial from now on.  
+
 这是一个Nintendo Switch安卓系统自动编译脚本。  
 **使用本脚本及附属教程，可为Nintendo Switch编译并安装最新版本的安卓系统（Android 10，或Android Q）**  
 脚本的制作受到了[Gitlab - ZachyCatGames的教程](https://gitlab.com/ZachyCatGames/q-tips-guide) 与 [Lineage OS官方教程](https://wiki.lineageos.org/devices/foster/build) 的指导，感谢原作者。  
