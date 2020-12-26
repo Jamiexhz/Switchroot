@@ -32,38 +32,38 @@ Use this script at your own risk. The author won't be responsible to any problem
  + 执行以下命令:  
    Run commands as below:
    
-  [过时] 原版脚本：（由本项目作者编写）  
-  [Out-of-date]Original Script: (Wrote by the author of this responsitory)
+    [过时] 原版脚本：（由本项目作者编写）  
+    [Out-of-date]Original Script: (Wrote by the author of this responsitory)
+    
+    ```
+    
+    wget https://raw.githubusercontent.com/Jamiexhz/Switchroot/main/android.sh
+    sudo chmod a+x Q_Builder.sh
+    sudo ./Q_Builder.sh
+    
+    ```
   
-  ```
+    **[推荐] 修改版脚本**：（修改自[makinbacon21/switchroot-script-builder](https://github.com/makinbacon21/switchroot-script-builder)，仅做临时使用）  
+    **[Recommended] Modified Script**: (Modified from[makinbacon21/switchroot-script-builder](https://github.com/makinbacon21/switchroot-script-builder), intended for temporary use only)
+    
+    ```
+    
+    wget https://raw.githubusercontent.com/Jamiexhz/switchroot-script-builder/main/Q_Builder.sh
+    sudo chmod a+x Q_Builder.sh
+    sudo ./Q_Builder.sh
+    
+    ```
   
-  wget https://raw.githubusercontent.com/Jamiexhz/Switchroot/main/android.sh
-  sudo chmod a+x Q_Builder.sh
-  sudo ./Q_Builder.sh
-  
-  ```
-  
-  **[推荐] 修改版脚本**：（修改自[makinbacon21/switchroot-script-builder](https://github.com/makinbacon21/switchroot-script-builder)，仅做临时使用）  
-  **[Recommended] Modified Script**: (Modified from[makinbacon21/switchroot-script-builder](https://github.com/makinbacon21/switchroot-script-builder), intended for temporary use only)
-  
-  ```
-  
-  wget https://raw.githubusercontent.com/Jamiexhz/switchroot-script-builder/main/Q_Builder.sh
-  sudo chmod a+x Q_Builder.sh
-  sudo ./Q_Builder.sh
-  
-  ```
-  
-  [存在兼容性问题]  [makinbacon21/switchroot-script-builder](https://github.com/makinbacon21/switchroot-script-builder)制作的脚本  
-  [Compatiblity issues]  Script from[makinbacon21/switchroot-script-builder](https://github.com/makinbacon21/switchroot-script-builder)
-  
-  ```
-  
-  wget https://raw.githubusercontent.com/makinbacon21/switchroot-script-builder/main/Q_Builder.sh
-  sudo chmod a+x Q_Builder.sh
-  sudo ./Q_Builder.sh
-  
-  ```
+    [存在兼容性问题]  [makinbacon21/switchroot-script-builder](https://github.com/makinbacon21/switchroot-script-builder)制作的脚本  
+    [Compatiblity issues]  Script from[makinbacon21/switchroot-script-builder](https://github.com/makinbacon21/switchroot-script-builder)
+    
+    ```
+    
+    wget https://raw.githubusercontent.com/makinbacon21/switchroot-script-builder/main/Q_Builder.sh
+    sudo chmod a+x Q_Builder.sh
+    sudo ./Q_Builder.sh
+    
+    ```
   
 ## 已知问题 Known Issue  
 
