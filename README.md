@@ -1,6 +1,17 @@
-由于Github内已经出现[更为完善的脚本](https://github.com/makinbacon21/switchroot-script-builder) (该脚本尚存在兼容性问题)，不再建议使用本脚本。本项目之后会专注于教程的更新。  
-As someone has released [a better script with more functions](https://github.com/makinbacon21/switchroot-script-builder) （Some compatibility problems remain to be fixed）, this script is not recommended anymore. This project will work as a tutorial from now on.  
+**由于Github内已经出现[更为完善的脚本](https://github.com/makinbacon21/switchroot-script-builder) （该脚本尚存在影响使用的兼容性问题），不再建议使用本项目中的脚本。本项目之后会专注于教程的更新。**       
+针对我个人遇到的一些兼容性问题，我修改了脚本中的部分内容，以实现正常编译。  
+在原项目开发者修复问题之前，本教程将使用我个人修改的版本，并会随原项目一并更新。  
+*修改版脚本最后更新：2020/12/26 21：29 GMT+8:00*  
+我的编译平台：Vultr云服务器 CPU:6 vCore; RAM:16 GB; Storage:320 GB SSD - Ubuntu 20.04 x64 （系统镜像由Vultr提供）  
 
+**As someone has released [a better script with more functions](https://github.com/makinbacon21/switchroot-script-builder) （Some compatibility problems remain to be fixed）, this script is not recommended anymore. This project will work as a tutorial from now on.**  
+Due to compatibility problems in the script mentioned above, I modified some parts of the original script to make it run on my end.   
+The modified version of this script will be used in this tutorial before the original developers fix the issues.  
+*Last update for the modified script: 2020/12/26 21：29 GMT+8:00*  
+My compliaton platform: Vultr Cloud Instance CPU:6 vCore; RAM:16 GB; Storage:320 GB SSD - Ubuntu 20.04 x64 (ISO provided by Vultr)   
+  
+____________________________________________________________________________________________  
+  
 这是一个Nintendo Switch安卓系统自动编译脚本。  
 **使用本脚本及附属教程，可为Nintendo Switch编译并安装最新版本的安卓系统（Android 10，或Android Q）**  
 脚本的制作受到了[Gitlab - ZachyCatGames的教程](https://gitlab.com/ZachyCatGames/q-tips-guide) 与 [Lineage OS官方教程](https://wiki.lineageos.org/devices/foster/build) 的指导，感谢原作者。  
@@ -17,19 +28,44 @@ Use this script at your own risk. The author won't be responsible to any problem
 ## 使用本脚本 Use this script 
   
  + 执行以下命令:  
-   Run commands as below:  
+   Run commands as below:
+   
+  [过时] 原版脚本：（由本项目作者编写）  
+  [Out-of-date]Original Script: (Wrote by the author of this responsitory)
   
   ```
   
   wget https://raw.githubusercontent.com/Jamiexhz/Switchroot/main/android.sh
-  sudo chmod a+x android.sh
-  sudo ./android.sh
+  sudo chmod a+x Q_Builder.sh
+  sudo ./Q_Builder.sh
   
   ```
- + 建议自行Fork一份到Github仓库，并据实修改git config中的用户名和邮箱。  
-   You may fork the script to your own repo and modify the default username & e-mail address in "git config" to yours.  
   
-## 已知问题 Known Issue
+  **[推荐] 修改版脚本**：（修改自[makinbacon21/switchroot-script-builder](https://github.com/makinbacon21/switchroot-script-builder)，仅做临时使用）  
+  **[Recommended] Modified Script**: (Modified from[makinbacon21/switchroot-script-builder](https://github.com/makinbacon21/switchroot-script-builder), intended for temporary use only)
+  
+  ```
+  
+  wget https://raw.githubusercontent.com/Jamiexhz/switchroot-script-builder/main/Q_Builder.sh
+  sudo chmod a+x Q_Builder.sh
+  sudo ./Q_Builder.sh
+  
+  ```
+  
+  [存在兼容性问题] [makinbacon21/switchroot-script-builder](https://github.com/makinbacon21/switchroot-script-builder)制作的脚本） 
+  [Compatiblity issues] Script from[makinbacon21/switchroot-script-builder](https://github.com/makinbacon21/switchroot-script-builder)
+  
+  ```
+  
+  wget https://raw.githubusercontent.com/makinbacon21/switchroot-script-builder/main/Q_Builder.sh
+  sudo chmod a+x Q_Builder.sh
+  sudo ./Q_Builder.sh
+  
+  ```
+  
+## 已知问题 Known Issue  
+
+**原版脚本 Original Script**  
   
  + **error: vendor/lineage/build/soong/Android.bp:30:8: module "generated_kernel_includes": cmd: unknown variable '$(PATH_OVERRIDE_SOONG)'**  
   
@@ -145,11 +181,13 @@ Switchroot小组已于此前正式发布了安卓8.1（O）系统，您可以从
   
 **3. 执行安装指令**  
   
+*以下将使用修改版脚本*  
+  
   ```
   
-  wget https://raw.githubusercontent.com/Jamiexhz/Switchroot/main/android.sh
-  sudo chmod a+x android.sh
-  sudo ./android.sh
+  wget https://raw.githubusercontent.com/Jamiexhz/switchroot-script-builder/main/Q_Builder.sh
+  sudo chmod a+x Q_Builder.sh
+  sudo ./Q_Builder.sh
   
   ```
 
