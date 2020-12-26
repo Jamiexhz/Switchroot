@@ -55,7 +55,7 @@ Use this script at your own risk. The author won't be responsible to any problem
     ```
   
     [存在兼容性问题]  [makinbacon21/switchroot-script-builder](https://github.com/makinbacon21/switchroot-script-builder)制作的脚本  
-    [Compatiblity issues]  Script from[makinbacon21/switchroot-script-builder](https://github.com/makinbacon21/switchroot-script-builder)
+    [Compatiblity issues]  Script from [makinbacon21/switchroot-script-builder](https://github.com/makinbacon21/switchroot-script-builder)
     
     ```
     
