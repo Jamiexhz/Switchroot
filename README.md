@@ -35,7 +35,9 @@ Use this script at your own risk. The author won't be responsible to any problem
    Run commands as below:
    
     [过时] 原版脚本：（由本项目作者编写）  
-    [Out-of-date]Original Script: (Wrote by the author of this responsitory)
+    [Out-of-date]Original Script: (Wrote by the author of this responsitory)  
+    使用该脚本将编译Icosa版本，非Android TV，不含Nvidia服务  
+    This script compiles Icosa. No Nvidia Service, not the Android TV version.
     
     ```
     
