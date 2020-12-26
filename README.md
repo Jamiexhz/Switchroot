@@ -17,12 +17,14 @@ ________________________________________________________________________________
 这是一个Nintendo Switch安卓系统自动编译脚本。  
 **使用本脚本及附属教程，可为Nintendo Switch编译并安装最新版本的安卓系统（Android 10，或Android Q）**  
 脚本的制作受到了[Gitlab - ZachyCatGames的教程](https://gitlab.com/ZachyCatGames/q-tips-guide) 与 [Lineage OS官方教程](https://wiki.lineageos.org/devices/foster/build) 的指导，感谢原作者。  
+以下部分内容修改了[makinbacon21/switchroot-script-builder](https://github.com/makinbacon21/switchroot-script-builder) 制作的脚本，该脚本具有自动设置Magisk、Joy-Con补丁、超频补丁、系统版本的功能。在使用该脚本的过程中，我发现了一些兼容性问题，并做出了调整。修改版脚本仅作过度使用，若原作者完善了兼容性，我将立刻改用原版脚本。若有侵权请提交issue，我将移除相关内容。  
 教程附录在页面下方。  
   
 This is an automatic compile script for Nintendo Switch Android System.  
 **By using this script and tutorials attached below, you are able to compile and install Android 10 (or Android Q) on Nintendo Switch.**  
 Tutorial is in Chinese Only so far. You may follow [This Guide](https://gitlab.com/ZachyCatGames/q-tips-guide) instead, but replace anything related to commands with this simple one-click script.  
 This script won't be possible without the guidance from [Gitlab - ZachyCatGames](https://gitlab.com/ZachyCatGames/q-tips-guide) and [Lineage OS Official](https://wiki.lineageos.org/devices/foster/build).  
+Content below involved script from [makinbacon21/switchroot-script-builder](https://github.com/makinbacon21/switchroot-script-builder) , which provide Magisk/Joy-con Patch/Version Select and more one-key options. During my actual test, I found some compatibility problems within and did some modification. The modified script is only intended for temporary use. I'll update to the official version as soon as the compatibility issues are fixed. Please submit an issue if you find this offend your copyright, and I'll remove the related contents right away.
   
 **使用脚本需自行承担风险，作者不对任何可能造成的问题负责。  
 Use this script at your own risk. The author won't be responsible to any problem occurred.**
@@ -44,7 +46,7 @@ Use this script at your own risk. The author won't be responsible to any problem
     ```
   
     **[推荐] 修改版脚本**：（修改自[makinbacon21/switchroot-script-builder](https://github.com/makinbacon21/switchroot-script-builder)，仅做临时使用）  
-    **[Recommended] Modified Script**: (Modified from[makinbacon21/switchroot-script-builder](https://github.com/makinbacon21/switchroot-script-builder), intended for temporary use only)
+    **[Recommended] Modified Script**: (Modified from [makinbacon21/switchroot-script-builder](https://github.com/makinbacon21/switchroot-script-builder), intended for temporary use only)
     
     ```
     
