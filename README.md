@@ -1,9 +1,10 @@
+  
 **由于Github内已经出现[更为完善的脚本](https://github.com/makinbacon21/switchroot-script-builder) （该脚本尚存在影响使用的兼容性问题），不再建议使用本项目中的脚本。本项目之后会专注于教程的更新。**       
 针对我个人遇到的一些兼容性问题，我修改了脚本中的部分内容，以实现正常编译。  
 在原项目开发者修复问题之前，本教程将使用我个人修改的版本，并会随原项目一并更新。  
 *修改版脚本最后更新：2020/12/26 21：29 GMT+8:00*  
 我的编译平台：Vultr云服务器 CPU:6 vCore; RAM:16 GB; Storage:320 GB SSD - Ubuntu 20.04 x64 （系统镜像由Vultr提供）  
-
+  
 **As someone has released [a better script with more functions](https://github.com/makinbacon21/switchroot-script-builder) （Some compatibility problems remain to be fixed）, this script is not recommended anymore. This project will work as a tutorial from now on.**  
 Due to compatibility problems in the script mentioned above, I modified some parts of the original script to make it run on my end.   
 The modified version of this script will be used in this tutorial before the original developers fix the issues.  
@@ -11,6 +12,7 @@ The modified version of this script will be used in this tutorial before the ori
 My compliaton platform: Vultr Cloud Instance CPU:6 vCore; RAM:16 GB; Storage:320 GB SSD - Ubuntu 20.04 x64 (ISO provided by Vultr)   
   
 ____________________________________________________________________________________________  
+  
   
 这是一个Nintendo Switch安卓系统自动编译脚本。  
 **使用本脚本及附属教程，可为Nintendo Switch编译并安装最新版本的安卓系统（Android 10，或Android Q）**  
@@ -52,8 +54,8 @@ Use this script at your own risk. The author won't be responsible to any problem
   
   ```
   
-  [存在兼容性问题] [makinbacon21/switchroot-script-builder](https://github.com/makinbacon21/switchroot-script-builder)制作的脚本） 
-  [Compatiblity issues] Script from[makinbacon21/switchroot-script-builder](https://github.com/makinbacon21/switchroot-script-builder)
+  [存在兼容性问题]  [makinbacon21/switchroot-script-builder](https://github.com/makinbacon21/switchroot-script-builder)制作的脚本  
+  [Compatiblity issues]  Script from[makinbacon21/switchroot-script-builder](https://github.com/makinbacon21/switchroot-script-builder)
   
   ```
   
